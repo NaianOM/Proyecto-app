@@ -25,8 +25,9 @@
             style="?attr/materialButtonOutlinedStyle"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:onClick="Regresar"
             android:text="@string/regresar"
-            android:textColor="#C52FA3"
+            android:textColor="#3949AB"
             app:strokeColor="#82A1E2"
             tools:ignore="TouchTargetSizeCheck" />
     </LinearLayout>

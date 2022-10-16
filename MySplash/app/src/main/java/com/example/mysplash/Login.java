@@ -17,4 +17,12 @@ public class Login extends AppCompatActivity {
         Intent registrarse = new Intent(this, Formulario.class);
         startActivity(registrarse);
     }
+    public void Olvidocontrasena (View view){
+        Intent Olvidocontrasena = new Intent(this, OlvideContrasena.class);
+        startActivity(Olvidocontrasena);
+    }
+    public void Velogin (View view){
+        Intent Velogin = new Intent(this, Login.class);
+        startActivity(Velogin);
+    }
 }

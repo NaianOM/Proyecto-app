@@ -26,7 +26,7 @@
             android:layout_weight="1"
             android:fontFamily="sans-serif-condensed-light"
             android:text="@string/nombre"
-            android:textColor="@color/amarillo"
+            android:textColor="@android:color/system_accent1_200"
             android:textSize="16sp" />
 
         <EditText
@@ -180,16 +180,18 @@
 
     <LinearLayout
         android:id="@+id/linearLayout8"
-        android:layout_width="387dp"
-        android:layout_height="104dp"
+        android:layout_width="396dp"
+        android:layout_height="103dp"
+        android:layout_marginStart="8dp"
         android:layout_marginTop="13dp"
-        android:layout_marginEnd="12dp"
+        android:layout_marginEnd="7dp"
         android:orientation="horizontal"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/linearLayout5">
 
         <LinearLayout
-            android:layout_width="146dp"
+            android:layout_width="142dp"
             android:layout_height="match_parent"
             android:orientation="vertical">
 
@@ -211,7 +213,7 @@
         </LinearLayout>
 
         <LinearLayout
-            android:layout_width="127dp"
+            android:layout_width="133dp"
             android:layout_height="match_parent"
             android:orientation="vertical">
 
@@ -219,7 +221,7 @@
                 android:id="@+id/txtvvwenfermedad"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="@string/enfermedad"
+                android:text="TextView"
                 android:textColor="@color/amarillo" />
 
             <Switch
@@ -227,7 +229,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:minHeight="48dp"
-                android:text="@string/si"
+                android:text="Switch"
                 android:textColor="@color/black" />
         </LinearLayout>
 
@@ -323,7 +325,7 @@
     <LinearLayout
         android:layout_width="265dp"
         android:layout_height="56dp"
-        android:layout_marginTop="6dp"
+        android:layout_marginTop="7dp"
         android:orientation="horizontal"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.636"
