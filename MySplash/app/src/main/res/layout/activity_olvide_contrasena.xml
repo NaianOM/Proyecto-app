@@ -114,6 +114,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
+            android:onClick="Regresar"
             android:text="@string/regresar"
             android:textColor="#EF7CAE"
             app:strokeColor="#EF7CAE" />
